@@ -1,0 +1,197 @@
+/****BASE STYLES***/
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+
+
+
+}
+
+
+/****GRID****/
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+	width: 1290px;
+  margin: 0 auto;
+  height: auto;
+
+}
+
+.full-width {
+  overflow: hidden;
+  padding-left: 25px;
+}
+
+.half-width {
+
+  float: left;
+  margin:0 auto;
+  overflow: hidden;
+  padding-left: 20px;
+  padding-right: 10px;
+  width: 570px;
+
+}
+
+
+
+
+
+
+/***** BODY *****/
+
+
+
+p {
+  line-height: 1.9;
+}
+
+/*****HEADER*****/
+
+
+header .full-width {
+    padding: 364px 304px 266px 330px;
+}
+
+
+h1 {
+  color: #965E4F;
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 25px;
+  text-align: center;
+
+  }
+
+header p {
+    color: #095256;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+header {
+  height: 800px;
+  background-image: url('../img/images-icons/hero-image.png');
+  background-size: cover;
+  margin-bottom: 50px;
+}
+
+
+
+/*****PORTFOLIO*****/
+
+
+
+
+portfolio h2 {
+  color: #095256;
+  font-size: 25px;
+  font-weight: 700;
+  padding-bottom: 130px;
+  text-align: center;
+}
+
+portfolio h3 {
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+portfolio h4 {
+  padding-bottom: 40px;
+}
+
+.image {
+  padding-bottom: 60px;
+}
+
+
+
+
+
+/**** ABOUT ****/
+
+about .full-width {
+  background-color: #FFFFF0;
+  clear:both;
+  overflow: hidden;
+}
+
+about h3 {
+  font-size: 25px;
+  font-weight: 700;
+  padding-bottom: 120px;
+  padding-top: 52px;
+  text-align: center;
+}
+
+about .half-width {
+  padding-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/**** CONTACT ****/
+
+
+contact {
+  color: white;
+}
+
+contact .full-width {
+  background-color: #CEE3E1;
+  clear:both;
+  overflow: hidden;
+  padding-bottom: 10px;
+
+
+}
+
+contact .half-width {
+  padding-bottom: 100px;
+  padding-left: 30px;
+  padding-top: 20px;
+
+
+}
+
+
+
+contact h3 {
+  font-size: 25px;
+  font-weight: 700;
+  padding-bottom: 130px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+contact h4 {
+  padding-bottom: 25px;
+
+}
+
+
+contact .section-one {
+  padding-left: 375px;
+
+}
+
+ .section-two {
+  padding-left: 30px;
+
+}
